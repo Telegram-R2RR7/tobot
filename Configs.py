@@ -68,8 +68,8 @@ class Var:
     MEDIA_DL_PATH = config("MEDIA_DL_PATH", default="media")
     LOG_FILE = config("LOG_FILE", default="Stream.log")
 
-    TWITTER_USERNAME = config("TWITTER_USERNAME", default="")
-    TWITTER_PASSWORD = config("TWITTER_PASSWORD", default="")
+    TWITTER_USERNAME = config("TWITTER_USERNAME", default="R2RR70")
+    TWITTER_PASSWORD = config("TWITTER_PASSWORD", default="Mohammed2009@@@")
     ACCOUNTS_FILE = config("ACCOUNTS_FILE", default="")
 
     DELAY_MINUTES = config("DELAY_MINUTES", default=20, cast=int)
