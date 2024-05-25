@@ -7,18 +7,18 @@ from decouple import config
 
 class Var:
     # Telegram's API ID
-    API_ID = config("API_ID", default=6)
+    API_ID = config("API_ID", default=14990654)
     # Telegram's API HASH
     API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
     # Telegram Bot's token
-    BOT_TOKEN = config("BOT_TOKEN", None)
+    BOT_TOKEN = config("BOT_TOKEN", default="7132646032:AAGXskzlneKd5qlIJp40P4ea3ytonOJ2MZw")
 
     # Telegram Chat id(s), where to send Tweets
-    TO_CHAT: str = config("TO_CHAT", None)
+    TO_CHAT: str = config("TO_CHAT", default="-1001822785140")
 
     # Username of Twitter User, whose Tweets should be tracked
     # and posted to chat filled in TO_CHAT.
-    TRACK_USERS = config("TRACK_USERS", default="")
+    TRACK_USERS = config("TRACK_USERS", default="R2RR70")
 
     # TRACK_WORDS: To filter Tweets by word
     # Should be seperated by "|"
