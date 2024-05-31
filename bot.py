@@ -17,7 +17,7 @@ from decouple import RepositoryEnv
 from aiohttp import ClientSession
 
 LOGS = logging.getLogger("TgTwitterStreamer")
-REPO_LINK = "https://github.com/New-dev0/TgTwitterStreamer"
+REPO_LINK = "t.me/R2RR7"
 
 
 Client = TelegramClient("tgtwitter", api_id=Var.API_ID, api_hash=Var.API_HASH)
@@ -238,7 +238,7 @@ class TgTwitterStreamer:
                     if legacyInfo["entities"] and legacyInfo["entities"].get("hashtags"):
                         hashtags = " ".join(
                             f"#{a['tag']}" for a in legacyInfo["entities"]["hashtags"]
-            )
+                        )
 
                     extra_text = None
                     if result.get("quoted_status_result"):
@@ -276,7 +276,7 @@ class TgTwitterStreamer:
                             async with ClientSession() as ses:
                                 request = await ses.get(ny)
                                 newurl = request.url
-                            text = text.replace(ny, newurl)
+                            text = text.replace(ny, str(newurl))
                     if videoFormat:
                         file = videoFormat[0]
                         Info = file.get("video_info")
