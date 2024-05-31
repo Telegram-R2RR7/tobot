@@ -235,10 +235,10 @@ class TgTwitterStreamer:
                         legacyInfo.get("extended_entities", {}).get("media", [])
                     )
                     hashtags = None
-                    if entities and entities.get("hashtags"):
+                    if legacyInfo["entities"] and legacyInfo["entities"].get("hashtags"):
                         hashtags = " ".join(
-                            f"#{a['tag']}" for a in entities["hashtags"]
-                        )
+                            f"#{a['tag']}" for a in legacyInfo["entities"]["hashtags"]
+            )
 
                     extra_text = None
                     if result.get("quoted_status_result"):
