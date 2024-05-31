@@ -72,7 +72,7 @@ class Var:
     TWITTER_PASSWORD = config("TWITTER_PASSWORD", default="Mohammed2009@@")
     ACCOUNTS_FILE = config("ACCOUNTS_FILE", default="")
 
-    DELAY_MINUTES = config("DELAY_MINUTES", default=20, cast=int)
+    DELAY_MINUTES = config("DELAY_MINUTES", default=5, cast=int)
     CACHE_FILE = config("CACHE_FILE", default="cache.json")
     TWITTER_SESSION_PATH = config("TWITTER_SESSION_PATH", default="")
     TWEET_FETCH_LIMIT = config("TWEET_FETCH_LIMIT", cast=int, default=10)
