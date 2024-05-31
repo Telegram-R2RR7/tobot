@@ -14,7 +14,7 @@ class Var:
     BOT_TOKEN = config("BOT_TOKEN", default="7132646032:AAGXskzlneKd5qlIJp40P4ea3ytonOJ2MZw")
 
     # Telegram Chat id(s), where to send Tweets
-    TO_CHAT: str = config("TO_CHAT", default="-1001822785140")
+    TO_CHAT: str = config("TO_CHAT", default="-1002096510153")
 
     # Username of Twitter User, whose Tweets should be tracked
     # and posted to chat filled in TO_CHAT.
