@@ -18,7 +18,7 @@ class Var:
 
     # Username of Twitter User, whose Tweets should be tracked
     # and posted to chat filled in TO_CHAT.
-    TRACK_USERS = config("TRACK_USERS", default="bt3")
+    TRACK_USERS = config("TRACK_USERS", default="bt3 R2RR70 Copa_Lal TrendEPL theMadridZone forcabarca_ar")
 
     # TRACK_WORDS: To filter Tweets by word
     # Should be seperated by "|"
