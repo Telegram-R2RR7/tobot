@@ -7,18 +7,18 @@ from decouple import config
 
 class Var:
     # Telegram's API ID
-    API_ID = config("API_ID", "14990654")
+    API_ID = config("API_ID", default=14990654)
     # Telegram's API HASH
-    API_HASH = config("API_HASH", "c6d66eb4d2a5e33e54834e0cbc305c2d")
+    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
     # Telegram Bot's token
-    BOT_TOKEN = config("BOT_TOKEN", "7132646032:AAGXskzlneKd5qlIJp40P4ea3ytonOJ2MZw")
+    BOT_TOKEN = config("BOT_TOKEN", default="7132646032:AAGXskzlneKd5qlIJp40P4ea3ytonOJ2MZw")
 
     # Telegram Chat id(s), where to send Tweets
-    TO_CHAT: str = config("TO_CHAT", "-1001822785140")
+    TO_CHAT: str = config("TO_CHAT", default="-1001822785140")
 
     # Username of Twitter User, whose Tweets should be tracked
     # and posted to chat filled in TO_CHAT.
-    TRACK_USERS = config("TRACK_USERS", "R2RR70")
+    TRACK_USERS = config("TRACK_USERS", default="R2RR70")
 
     # TRACK_WORDS: To filter Tweets by word
     # Should be seperated by "|"
@@ -68,8 +68,8 @@ class Var:
     MEDIA_DL_PATH = config("MEDIA_DL_PATH", default="media")
     LOG_FILE = config("LOG_FILE", default="Stream.log")
 
-    TWITTER_USERNAME = config("TWITTER_USERNAME", "sjjswjjwwh41390")
-    TWITTER_PASSWORD = config("TWITTER_PASSWORD", "Mohammed2009@@")
+    TWITTER_USERNAME = config("TWITTER_USERNAME", default="sjjswjjwwh41390")
+    TWITTER_PASSWORD = config("TWITTER_PASSWORD", default="Mohammed2009@@")
     ACCOUNTS_FILE = config("ACCOUNTS_FILE", default="")
 
     DELAY_MINUTES = config("DELAY_MINUTES", default=20, cast=int)
