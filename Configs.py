@@ -9,7 +9,7 @@ class Var:
     # Telegram's API ID
     API_ID = config("API_ID", default=14990654)
     # Telegram's API HASH
-    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    API_HASH = config("API_HASH", default="c6d66eb4d2a5e33e54834e0cbc305c2d")
     # Telegram Bot's token
     BOT_TOKEN = config("BOT_TOKEN", default="7132646032:AAGXskzlneKd5qlIJp40P4ea3ytonOJ2MZw")
 
