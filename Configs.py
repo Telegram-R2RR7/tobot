@@ -11,14 +11,14 @@ class Var:
     # Telegram's API HASH
     API_HASH = config("API_HASH", default="c6d66eb4d2a5e33e54834e0cbc305c2d")
     # Telegram Bot's token
-    BOT_TOKEN = config("BOT_TOKEN", default="7132646032:AAGXskzlneKd5qlIJp40P4ea3ytonOJ2MZw")
+    BOT_TOKEN = config("BOT_TOKEN", default="7132646032:AAHhCQO-vfMQvyfH41xgC88_SwVlgSIM_7E")
 
     # Telegram Chat id(s), where to send Tweets
     TO_CHAT: str = config("TO_CHAT", default="-1002176802148")
 
     # Username of Twitter User, whose Tweets should be tracked
     # and posted to chat filled in TO_CHAT.
-    TRACK_USERS = config("TRACK_USERS", default="bt3 R2RR70 Copa_Lal TrendEPL theMadridZone")
+    TRACK_USERS = config("TRACK_USERS", default="bt3 R2RR70 Copa_Lal TrendEPL theMadridZone forcabarca_ar")
     # TRACK_WORDS: To filter Tweets by word
     # Should be seperated by "|"
     TRACK_WORDS = config("TRACK_WORDS", default="")
