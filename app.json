@@ -21,6 +21,14 @@
             "description": "Read New-dev0.github.io/tgtwitterbot to Know About it.",
             "value": ""
         },
+        "TWITTER_USERNAME": {
+            "description": "Twitter username.",
+            "value": ""
+        },
+        "TWITTER_PASSWORD": {
+            "description": "Twitter password.",
+            "value": ""
+        },
         "TRACK_USERS": {
             "description": "Username/id of Users to Track.",
             "value": ""
