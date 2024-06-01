@@ -11,7 +11,7 @@ class Var:
     # Telegram's API HASH
     API_HASH = config("API_HASH", default="c6d66eb4d2a5e33e54834e0cbc305c2d")
     # Telegram Bot's token
-    BOT_TOKEN = config("BOT_TOKEN", default="7132646032:AAF1yYiF_0WgCDHcGx4F02duRsur0mxO2Po")
+    BOT_TOKEN = config("BOT_TOKEN", default="7132646032:AAGUDvx5djLXewJ2AsDgiAW1-JmMD6necw4")
 
     # Telegram Chat id(s), where to send Tweets
     TO_CHAT: str = config("TO_CHAT", default="-1002176802148")
@@ -67,8 +67,8 @@ class Var:
     MEDIA_DL_PATH = config("MEDIA_DL_PATH", default="media")
     LOG_FILE = config("LOG_FILE", default="Stream.log")
 
-    TWITTER_USERNAME = config("TWITTER_USERNAME", default="sjjswjjwwh41390")
-    TWITTER_PASSWORD = config("TWITTER_PASSWORD", default="Mohammed@@")
+    TWITTER_USERNAME = config("TWITTER_USERNAME", default="R2RR70")
+    TWITTER_PASSWORD = config("TWITTER_PASSWORD", default="Mohammed2009@@#")
     ACCOUNTS_FILE = config("ACCOUNTS_FILE", default="")
 
     DELAY_MINUTES = config("DELAY_MINUTES", default=1, cast=int)
